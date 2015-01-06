@@ -1,0 +1,23 @@
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes.dex : \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/BuildConfig.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/CordovaApp.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$attr.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$color.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$drawable.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$id.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$integer.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$string.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$style.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$styleable.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R$xml.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/R.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/RevMobPlugin.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/RevMobPluginEx$1.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/RevMobPluginEx$2.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/RevMobPluginEx$3.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/RevMobPluginEx$BannerAdListener.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/revmob/RevMobPluginEx.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/dexedLibs/classes-52a9f5bed4621a0acf9335378bd3f9ff.jar \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/dexedLibs/classes-2bf49d13eec69c0ad75bc981cbf1f7e2.jar \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/dexedLibs/revmob-android-wrapper-9c04cd4bc220b969ada6697c5a13e921.jar \
+/Users/blakgeek/IdeaProjects/cordova-plugin-revmob-example/platforms/android/ant-build/dexedLibs/google-play-services-5b7799a674828529cd993e953877e594.jar \
