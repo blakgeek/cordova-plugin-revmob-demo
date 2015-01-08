@@ -1,1 +1,1 @@
-## Cordova RevMod Ads Plugin Demo App
+## Cordova RevMob Ads Plugin Demo App
