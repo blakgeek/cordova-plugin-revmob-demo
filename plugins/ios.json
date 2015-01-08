@@ -46,10 +46,10 @@
         }
     },
     "installed_plugins": {
-        "com.blakgeek.cordova.plugin.revmob": {
+        "com.google.playservices": {
             "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
         },
-        "com.google.playservices": {
+        "com.blakgeek.cordova.plugin.revmob": {
             "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
         }
     },

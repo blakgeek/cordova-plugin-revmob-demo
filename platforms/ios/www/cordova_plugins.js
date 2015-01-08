@@ -11,8 +11,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.blakgeek.cordova.plugin.revmob": "1.0.5",
-    "com.google.playservices": "21.0.0"
+    "com.google.playservices": "21.0.0",
+    "com.blakgeek.cordova.plugin.revmob": "1.0.6"
 }
 // BOTTOM OF METADATA
 });

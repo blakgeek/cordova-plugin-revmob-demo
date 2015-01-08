@@ -11,19 +11,37 @@
                         {
                             "xml": "<meta-data android:name=\"com.google.android.gms.version\" android:value=\"@integer/google_play_services_version\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<activity android:configChanges=\"keyboardHidden|orientation\" android:name=\"com.revmob.ads.fullscreen.FullscreenActivity\" android:theme=\"@android:style/Theme.Translucent\" />",
+                            "count": 1
                         }
                     ],
-                    "/*": []
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        }
+                    ]
                 }
             },
             "config.xml": {
                 "parents": {
-                    "/*": []
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"RevMobPlugin\"><param name=\"android-package\" value=\"com.blakgeek.cordova.plugin.revmob.RevMobPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
                 }
             }
         }
     },
-    "installed_plugins": {},
+    "installed_plugins": {
+        "com.blakgeek.cordova.plugin.revmob": {
+            "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
+        }
+    },
     "dependent_plugins": {
         "com.google.playservices": {
             "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
