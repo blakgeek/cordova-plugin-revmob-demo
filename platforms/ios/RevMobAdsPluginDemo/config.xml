@@ -19,9 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="RevMobPlugin">
-        <param name="ios-package" value="RevMobPluginEx" />
-    </feature>
     <name>RevMobAdsPluginDemo</name>
     <description>
         RevMob Ads Plugin Demo App
@@ -31,4 +28,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="RevMobPlugin">
+        <param name="ios-package" value="RevMobPlugin" />
+    </feature>
 </widget>

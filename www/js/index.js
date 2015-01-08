@@ -1,10 +1,10 @@
 document.addEventListener('deviceready', function() {
 
-    window.revmob = new RevMob(cordova.platformId === 'ios' ? '54ab082b897252bf0917ff3f' : '54ab083cecec2af9584b2759');
+    window.revmob = new RevMob();
 
-	//revmob.setTestingMode(true);
+	revmob.enableTestMode(true);
 
-    revmob.startSession();
+    revmob.init(cordova.platformId === 'ios' ? '54ab082b897252bf0917ff3f' : '54ab083cecec2af9584b2759');
 
     var actionList = document.getElementById('actions');
 
@@ -12,19 +12,19 @@ document.addEventListener('deviceready', function() {
 
         switch(e.target.id) {
             case 'showTopBanner':
-                revmob.showBanner(true);
+                revmob.showBannerAd(true);
                 break;
             case 'showBottomBanner':
-                revmob.showBanner();
+                revmob.showBannerAd();
                 break;
             case 'hideBanner':
-                revmob.hideBanner();
+                revmob.hideBannerAd();
                 break;
             case 'showInterstitial':
-                revmob.showFullscreen();
+                revmob.showInterstitialAd();
                 break;
             case 'showPopup':
-                revmob.showPopup();
+                revmob.showPopupAd();
                 break;
         }
 

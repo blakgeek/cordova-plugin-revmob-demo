@@ -37,17 +37,7 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"RevMobPlugin\"><param name=\"ios-package\" value=\"RevMobPluginEx\" /></feature>",
-                            "count": 1
-                        }
-                    ]
-                }
-            },
-            "*-Info.plist": {
-                "parents": {
-                    "CFBundleDisplayName": [
-                        {
-                            "xml": "<string>RevMob Ads Cordova Plugin Demo</string>",
+                            "xml": "<feature name=\"RevMobPlugin\"><param name=\"ios-package\" value=\"RevMobPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -56,10 +46,10 @@
         }
     },
     "installed_plugins": {
-        "com.google.playservices": {
+        "com.blakgeek.cordova.plugin.revmob": {
             "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
         },
-        "com.blakgeek.cordova.plugin.revmob": {
+        "com.google.playservices": {
             "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
         }
     },

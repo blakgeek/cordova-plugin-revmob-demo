@@ -39,12 +39,12 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		2EF9D1CC930F4CED8F3BE5AA /* RevMobPluginEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FBBF3F1DF4C679DF143E0 /* RevMobPluginEx.m */; };
-		47E18CE7D1114508A6B8980B /* librevmob-ios-wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E318A33302CF4B73909118C4 /* librevmob-ios-wrapper.a */; };
-		6C9ACD9733AC47629E74A24A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5C75E56B374517992D79CE /* SystemConfiguration.framework */; };
-		9D1F38263E214C9F9D75EC6F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994CA913F99E4044AF4A3B0E /* MediaPlayer.framework */; };
-		821BCDD39C864C85A9A014C3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044BCD0299834E4F8E57E4C2 /* StoreKit.framework */; };
-		4E225283DEF04F3E8CB024FB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBB83DF452499399F422D9 /* AdSupport.framework */; };
+		9D78CF12E3FF48E588DA275F /* RevMobPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9985863474C458DCDD9B5 /* RevMobPlugin.m */; };
+		C95648F92B7A4A8E846F93A5 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49940338A464847A914A895 /* RevMobAds.framework */; };
+		1D0B370B4FE0428C9BB321A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B6B7E1E9E6461BAA313F24 /* SystemConfiguration.framework */; };
+		AA20AD9E28EA4C01B38B93F9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7369FD312A2C4FF6A097594F /* MediaPlayer.framework */; };
+		5EAC6688DD9344CB80B02B7B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57685499B85C48E492FF99BE /* StoreKit.framework */; };
+		74A2F80BB6E14DAEA986EABA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7266F6CC94874289A5E39A48 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,22 +110,13 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "RevMobAdsPluginDemo/config.xml"; sourceTree = "<group>"; };
-		F63FBBF3F1DF4C679DF143E0 /* RevMobPluginEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RevMobPluginEx.m"; path = "com.blakgeek.cordova.plugin.revmob/RevMobPluginEx.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		E318A33302CF4B73909118C4 /* librevmob-ios-wrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "librevmob-ios-wrapper.a"; path = "RevMobAdsPluginDemo/Plugins/com.blakgeek.cordova.plugin.revmob/librevmob-ios-wrapper.a"; sourceTree = "<group>"; fileEncoding = 4; };
-		44905C22D0344DB5B1C8D1E3 /* RevMobPluginEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobPluginEx.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobPluginEx.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		D3EE3E99A1D24F9BBF171594 /* RevMobAdLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobAdLink.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobAdLink.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		9CD79275147E4CD7B338AA86 /* RevMobAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobAds.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobAds.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		1C7EC4E3D94143DC9543402E /* RevMobAdsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobAdsDelegate.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobAdsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		DF855574B0754351BF5BECD2 /* RevMobBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobBanner.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobBanner.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		497BBE77F8014978ACCC3C0A /* RevMobBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobBannerView.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobBannerView.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		6A9F978A6DC14D4B8810FFD8 /* RevMobButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobButton.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobButton.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		48997D816FAF4EC2ACBC48CF /* RevMobFullscreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobFullscreen.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobFullscreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		5FE49DA0CDF047C09A666329 /* RevMobPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobPlugin.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		98F61388D1D444ECBE130524 /* RevMobPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobPopup.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobPopup.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		FB5C75E56B374517992D79CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		994CA913F99E4044AF4A3B0E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		044BCD0299834E4F8E57E4C2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		62CBB83DF452499399F422D9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		0EA9985863474C458DCDD9B5 /* RevMobPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RevMobPlugin.m"; path = "com.blakgeek.cordova.plugin.revmob/RevMobPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A69F560E112548CC95EB6615 /* RevMobPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RevMobPlugin.h"; path = "com.blakgeek.cordova.plugin.revmob/RevMobPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D49940338A464847A914A895 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "RevMobAds.framework"; path = "RevMobAdsPluginDemo/Plugins/com.blakgeek.cordova.plugin.revmob/RevMobAds.framework"; sourceTree = "<group>"; };
+		99B6B7E1E9E6461BAA313F24 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7369FD312A2C4FF6A097594F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		57685499B85C48E492FF99BE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7266F6CC94874289A5E39A48 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,11 +128,11 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				47E18CE7D1114508A6B8980B /* librevmob-ios-wrapper.a in Frameworks */,
-				6C9ACD9733AC47629E74A24A /* SystemConfiguration.framework in Frameworks */,
-				9D1F38263E214C9F9D75EC6F /* MediaPlayer.framework in Frameworks */,
-				821BCDD39C864C85A9A014C3 /* StoreKit.framework in Frameworks */,
-				4E225283DEF04F3E8CB024FB /* AdSupport.framework in Frameworks */,
+				C95648F92B7A4A8E846F93A5 /* RevMobAds.framework in Frameworks */,
+				1D0B370B4FE0428C9BB321A6 /* SystemConfiguration.framework in Frameworks */,
+				AA20AD9E28EA4C01B38B93F9 /* MediaPlayer.framework in Frameworks */,
+				5EAC6688DD9344CB80B02B7B /* StoreKit.framework in Frameworks */,
+				74A2F80BB6E14DAEA986EABA /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +205,11 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				E7345D26A901462FA83694A3 /* librevmob-ios-wrapper.a */,
-				27E22C2168424B22A6AF3D3C /* librevmob-ios-wrapper.a */,
-				E318A33302CF4B73909118C4 /* librevmob-ios-wrapper.a */,
-				FB5C75E56B374517992D79CE /* SystemConfiguration.framework */,
-				994CA913F99E4044AF4A3B0E /* MediaPlayer.framework */,
-				044BCD0299834E4F8E57E4C2 /* StoreKit.framework */,
-				62CBB83DF452499399F422D9 /* AdSupport.framework */,
+				D49940338A464847A914A895 /* RevMobAds.framework */,
+				99B6B7E1E9E6461BAA313F24 /* SystemConfiguration.framework */,
+				7369FD312A2C4FF6A097594F /* MediaPlayer.framework */,
+				57685499B85C48E492FF99BE /* StoreKit.framework */,
+				7266F6CC94874289A5E39A48 /* AdSupport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,17 +225,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				F63FBBF3F1DF4C679DF143E0 /* RevMobPluginEx.m */,
-				44905C22D0344DB5B1C8D1E3 /* RevMobPluginEx.h */,
-				D3EE3E99A1D24F9BBF171594 /* RevMobAdLink.h */,
-				9CD79275147E4CD7B338AA86 /* RevMobAds.h */,
-				1C7EC4E3D94143DC9543402E /* RevMobAdsDelegate.h */,
-				DF855574B0754351BF5BECD2 /* RevMobBanner.h */,
-				497BBE77F8014978ACCC3C0A /* RevMobBannerView.h */,
-				6A9F978A6DC14D4B8810FFD8 /* RevMobButton.h */,
-				48997D816FAF4EC2ACBC48CF /* RevMobFullscreen.h */,
-				5FE49DA0CDF047C09A666329 /* RevMobPlugin.h */,
-				98F61388D1D444ECBE130524 /* RevMobPopup.h */,
+				0EA9985863474C458DCDD9B5 /* RevMobPlugin.m */,
+				A69F560E112548CC95EB6615 /* RevMobPlugin.h */,
 			);
 			name = Plugins;
 			path = "RevMobAdsPluginDemo/Plugins";
@@ -431,7 +411,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				2EF9D1CC930F4CED8F3BE5AA /* RevMobPluginEx.m in Sources */,
+				9D78CF12E3FF48E588DA275F /* RevMobPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,9 +454,9 @@
 				);
 				PRODUCT_NAME = "RevMobAdsPluginDemo";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				LIBRARY_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/RevMobAdsPluginDemo/Plugins/com.blakgeek.cordova.plugin.revmob\"",
+					"\"RevMobAdsPluginDemo/Plugins/com.blakgeek.cordova.plugin.revmob\"",
 				);
 			};
 			name = Debug;
@@ -507,9 +487,9 @@
 				);
 				PRODUCT_NAME = "RevMobAdsPluginDemo";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				LIBRARY_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/RevMobAdsPluginDemo/Plugins/com.blakgeek.cordova.plugin.revmob\"",
+					"\"RevMobAdsPluginDemo/Plugins/com.blakgeek.cordova.plugin.revmob\"",
 				);
 			};
 			name = Release;
