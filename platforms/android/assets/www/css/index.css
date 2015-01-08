@@ -48,6 +48,7 @@ body {
     width: 225px; /* text area width */
     text-align: center;
     -webkit-transform: translate3d(-50%, -50%, 0);
+    text-transform: uppercase;
 }
 
 /* Landscape layout (with min-width) */
