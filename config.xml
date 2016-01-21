@@ -9,5 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-
+    <plugin name="cordova-plugin-revmob" spec="~1.1.1" />
 </widget>

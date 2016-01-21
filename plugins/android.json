@@ -25,7 +25,7 @@
                     ]
                 }
             },
-            "config.xml": {
+            "res/xml/config.xml": {
                 "parents": {
                     "/*": [
                         {
@@ -38,13 +38,9 @@
         }
     },
     "installed_plugins": {
-        "com.blakgeek.cordova.plugin.revmob": {
+        "cordova-plugin-revmob": {
             "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
         }
     },
-    "dependent_plugins": {
-        "com.google.playservices": {
-            "PACKAGE_NAME": "com.blakgeek.cordova.plugin.revmob"
-        }
-    }
+    "dependent_plugins": {}
 }
